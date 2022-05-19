@@ -20,3 +20,16 @@ export interface User {
         totalCount: number;
     };
 }
+
+export interface Repository {
+    name: string;
+    url: string;
+    description: string;
+    primaryLanguage: {
+        name: string;
+    };
+}
+
+export interface CardRepoProps {
+    repo: Repository;
+}
