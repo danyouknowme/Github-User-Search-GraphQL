@@ -11,9 +11,9 @@ const CardProfile: React.FC<CardProfileProps> = ({ user }) => {
 			/>
 			<div className="flex-column ml-6 text-white">
 				<p className="text-xl font-medium ">{user?.name}</p>
-				<p>Email: {user.email || "Not Avialable"}</p>
-				<p>Company: {user?.company || "Not Avialable"}</p>
-				<p>Bio: {user?.bio || "Not Avialable"}</p>
+				<p>Email: {user.email || "N/A"}</p>
+				<p>Company: {user?.company || "N/A"}</p>
+				<p>Bio: {user?.bio || "N/A"}</p>
 				<span>Followers: {user?.followers.totalCount}</span>
 				<span className="ml-10">Following: {user?.following.totalCount}</span>
 			</div>
