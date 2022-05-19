@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     colors: {
       'dark': '#282c34',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'blackOpacity': 'rgb(0, 0, 0, 0.6)'
     }
   },
   plugins: [],
