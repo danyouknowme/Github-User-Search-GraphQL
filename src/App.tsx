@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { IoIosSearch } from "react-icons/io";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<div className="w-screen h-screen bg-dark">
+			<div className="flex flex-col items-center">
+				<img
+					src="github-logo.png"
+					className="App-logo"
+					alt="logo"
+					width="450"
+				/>
+				<div className="flex items-center bg-white rounded">
+					<input
+						className="p-2 rounded border border-white rounded-r-none outline-none"
+						type="text"
+					/>
+					<IoIosSearch className="text-xl mx-2 text-dark cursor-pointer" />
+				</div>
+			</div>
+		</div>
+	);
+};
 
 export default App;
