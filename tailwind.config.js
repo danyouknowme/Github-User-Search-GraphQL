@@ -8,7 +8,14 @@ module.exports = {
       'white': '#ffffff',
       'blackOpacity': 'rgb(0, 0, 0, 0.6)',
       'lightRed': '#ef4444'
+    },
+    extend: {
+      flex: {
+        '0': '0 0 auto'
+      }
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 };
