@@ -16,7 +16,8 @@ query User($username: String!) {
       } repositories(last: 20, isFork: false) {
         nodes { 
           name 
-          url 
+          url
+          description
           primaryLanguage { 
             id 
             name 
