@@ -4,7 +4,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'dark': '#282c34'
+      'dark': '#282c34',
+      'white': '#ffffff'
     }
   },
   plugins: [],
